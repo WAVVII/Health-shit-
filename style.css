@@ -25,7 +25,7 @@ header
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 20px 100px;
+	padding: 12px 110px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -34,7 +34,7 @@ header
 header .logo
 {
 	position: relative;
-	max-width: 80px;
+	max-width: 90px;
 }
 
 header ul
@@ -64,12 +64,14 @@ header ul li a
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0px;
 }
 
 .content .textBox
 {
 	position: relative;
 	max-width: 600px;
+	padding: 5px;
 }
 
 .content .textBox h2
@@ -77,19 +79,20 @@ header ul li a
 	color: #333;
 	font-size: 3.2em;
 	line-height: 1.4em;
-	font-weight: 600;
+	font-weight: 550;
 }
 
 .content .textBox h2 span 
 {
 	color: #017143;
 	font-size: 1.2em;
-	font-weight: 900;
+	font-weight: 800;
 }
 
 .content .textBox p
 {
 	color: #333;
+	font-weight: 550;
 }
 
 .content .textBox a 
@@ -100,14 +103,18 @@ header ul li a
 	background: #017143;
 	color: #fff;
 	border-radius: 40px;
-	font-weight: 500;
+	font-weight: 850;
 	letter-spacing: 1px;
 	text-decoration: none;
 }
 
+.content .textBox a:hover{
+	color: rgb(202, 57, 57);
+}
+
 .content .imgBox
 {
-	width: 1000px;
+	width: 850px;
 	display: flex;
 	justify-content: flex-end;
 	padding-right: 50px;
