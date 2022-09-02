@@ -12,7 +12,7 @@ section
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
-	padding: 100px;
+	padding: 80px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -25,7 +25,7 @@ header
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 15px 110px;
+	padding: 15px 86px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

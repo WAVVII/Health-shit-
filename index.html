@@ -33,14 +33,22 @@
 			</div>
 		</div>
 		<ul class="thumb">
-			<li><img src="thumb/test1.jpg"></li>
-			<li><img src="thumb/test2.jpg"></li>
-			<li><img src="thumb/test3.jpg"></li>
+			<li><img src="thumb/test1.jpg" onclick="imgSlider('ortom/test1.png')"></li>
+			<li><img src="thumb/test2.jpg" onclick="imgSlider('ortom/test2.png')"></li>
+			<li><img src="thumb/test3.jpg" onclick="imgSlider('ortom/test3.png')"></li>
 		</ul>
 		<ul class="sci">
 			<li><a href="#"><img src="icons/facebook.png"></a></li>
 			<li><a href="#"><img src="icons/instagram.png"></a></li>
 			<li><a href="#"><img src="icons/twitter.png"></a></li>
-		</ul>	
+		</ul>
 	</section>
+
+	<script type="text/javascript">
+		function imgSlider(anything){
+			document.querySelector('.ortom').src = anything;
+		}
+	</script>
+
 </body>
+</html>
