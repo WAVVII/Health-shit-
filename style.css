@@ -179,7 +179,7 @@ header ul li a
 	transition: 0.5s;
 }
 
-@media (max-width: 991px)
+@media (max-width: 1115px)
 {
 	header{
 		padding: 15px 20px;
